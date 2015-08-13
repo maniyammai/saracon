@@ -1,0 +1,421 @@
+// Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import "uikit/uikit.less";
+
+/* Panel Box Override
+ ========================================================================== */
+.uk-panel-box .uk-panel-title { color: @panel-box-title-color!important; }
+.uk-panel-box-primary .uk-panel-title { color: @panel-box-primary-title-color!important; }
+.uk-panel-box-primary { color: @panel-box-primary-color!important; }
+
+.uk-panel-box-secondary .uk-panel-title { color: @panel-box-secondary-title-color!important; }
+.uk-panel-box-secondary{color: @panel-box-secondary-color;}
+.uk-panel {margin-bottom:@grid-gutter-large-horizontal;}
+
+
+/* Main Menu 100%
+ ========================================================================== */
+.uk-container-center {padding-top:@grid-gutter-large-horizontal}
+.uk-container-center {padding-bottom:@grid-gutter-large-horizontal}
+
+.uk-container-center {padding-left:@grid-gutter-large-vertical}
+.uk-container-center {padding-right:@grid-gutter-large-vertical}
+
+/* Main Menu 100%
+ ========================================================================== */
+#menu-outer {
+	background-color:@navbar-background;
+	width:100%;
+	z-index:99;
+	position:relative;
+}
+
+/* Top A 
+ ========================================================================== */
+#top-a {
+	background-color:@top_a-background;
+}
+#top-a a:link {
+	color:@top_a-link-color;
+}
+
+
+
+/* Top B
+ ========================================================================== */
+
+#top-b {
+	background-color:@top_b-background;
+}
+#top-b a:link {
+	color:@top_b-link-color;
+}
+#top-b, #top-b h1, #top-b h2, #top-b h3, #top-b h4, #top-b h5, #top-b h6 {
+	color:@top_b-color;
+}
+
+/* Bottom A 
+ ========================================================================== */
+#bottom-a {
+	background-color:@bottom_a-background;
+}
+#bottom-a a:link {
+	color:@top_a-link-color;
+}
+#bottom-a, #bottom-a h1, #bottom-a h2, #bottom-a h3, #bottom-a h4, #bottom-a h5, #bottom-a h6 {
+	color:@top_a-color;
+}
+/*  Bottom B 
+ ========================================================================== */
+#bottom-b {
+	background-color:@top_b-background;
+}
+#bottom-b a:link {
+	color:@top_b-link-color;
+}
+#bottom-b, #bottom-b h1, #bottom-b h2, #bottom-b h3, #bottom-b h4, #bottom-b h5, #bottom-b h6 {
+	color:@top_b-color;
+}
+
+/* Footer 
+ ========================================================================== */
+
+.tm-footer{background:@footer_a-background; }
+
+/* IMG Border Style
+ ========================================================================== */
+.uk-navbar-center {
+    max-width: inherit;
+}
+
+/* Background 
+ ========================================================================== */
+.main-outer,.top-a, .top-b,.bottom-a,.bottom-b{
+	width:100%;
+	padding:@grid-gutter-large-horizontal 0;
+}
+
+/* Icons 
+ ========================================================================== */
+span.ico {
+	background: @global-primary-background;
+    color: @global-contrast-color;
+}
+
+/* Headline Colors 
+ ========================================================================== */
+h1.uk-article-title::after,
+h3.uk-panel-title::after{
+	background-color:@global-primary-background;	
+}
+
+
+/* Social Icons 
+ ========================================================================== */
+
+.uk-icon-button {
+    background: @global-primary-background;
+    color: @global-contrast-color;
+    -webkit-animation: @dropdown-animation 0.8s ease-in-out;
+    animation: @dropdown-animation 0.8s ease-in-out;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+/* Top Navbar Arrow for Submenu
+ ========================================================================== */
+.uk-navbar-nav > li.uk-parent > a:after {
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: @navbar-nav-height;
+    position: absolute;
+    right: 10px;
+	top:0;
+}
+.uk-navbar-nav > li.uk-parent > a {
+    padding-right: 25px;
+    position: relative;
+}
+/* Off Canvas Menu Icon
+ ========================================================================== */
+.uk-navbar-toggle:after {
+  content: "\f039";
+  font-family: FontAwesome;
+  /* 1 */
+  vertical-align: middle;
+}
+.uk-navbar-toggle-alt:after {
+  content: "\f039";
+}
+
+/* Override the global margin 
+ ========================================================================== */
+* + p, * + hr, * + ul, * + ol, * + dl, * + blockquote, * + pre, * + address, * + fieldset, * + figure, h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0 4px 0;
+}
+.uk-text-large {
+    margin: 20px 0;
+}
+
+/* Dropdown Animation 
+ ========================================================================== */
+
+.uk-open > .uk-dropdown {
+    display: block;
+    -webkit-animation: @dropdown-animation 0.8s ease-in-out;
+    animation: @dropdown-animation 0.8s ease-in-out;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav > li.uk-open > a {
+    -webkit-animation: @dropdown-animation 0.3s fade-in-out;
+    animation: @dropdown-animation 0.3s fade-in-out;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+/* Joomla Content
+ ========================================================================== */
+.tm-content {
+
+	background: #FFF;
+}
+
+/* Dropdown background
+ ========================================================================== */
+
+.uk-dropdown-navbar {
+    background: @dropdown-background;
+}
+
+
+html { overflow-y: scroll; }
+
+/*
+ * Blocks
+ */
+
+.tm-toolbar,
+.tm-headerbar,
+.tm-navbar,
+.tm-footer {
+    margin-top: @grid-gutter-large-vertical;
+    margin-bottom: @grid-gutter-large-vertical;
+}
+
+/* Only large screens */
+@media (min-width: @breakpoint-xlarge) {
+
+    .tm-headerbar,
+    .tm-navbar,
+    .tm-footer {
+        margin-top: @grid-gutter-large-vertical;
+        margin-bottom: @grid-gutter-large-vertical;
+    }
+
+}
+
+/* Only phones */
+@media (max-width: @breakpoint-small-max) {
+
+    .tm-navbar {
+        margin: 0 -@utility-container-padding-horizontal @global-grid-gutter -@utility-container-padding-horizontal;
+        border-width: 0 0 1px 0;
+    }
+
+    .tm-logo-small:hover { text-decoration: none; };
+
+    .tm-navbar:not(.uk-navbar-attached) { border-radius: 0; }
+
+}
+
+/*
+ * Logo small
+ * Remove whitespace caused by vertical centering to prevent logo wrapping into the next line
+ */
+
+.tm-logo-small { letter-spacing: -0.31em; }
+
+/*
+ * Toolbar
+ */
+
+.tm-toolbar .uk-float-left .uk-panel {
+    margin: 0 @global-grid-gutter 0 0;
+    float: left;
+}
+
+.tm-toolbar .uk-float-right .uk-panel {
+    margin: 0 0 0 @global-grid-gutter;
+    float: right;
+}
+
+/*
+ * Headerbar
+ */
+
+.tm-headerbar .tm-logo { float: left; }
+
+.tm-headerbar .uk-panel {
+    max-width: 100%;
+    margin-right: 0;
+    float: right;
+}
+
+/*
+ * Middle
+ */
+
+.tm-main > :nth-child(n+2) { margin-top: @global-grid-gutter; }
+
+.tm-content > :last-child { margin-bottom: 0; }
+
+/*
+ * Footer
+ */
+
+.tm-footer {
+    position: relative;
+    text-align: center;
+}
+
+.tm-footer .uk-panel + .uk-panel { margin-top: @global-grid-gutter; }
+
+/*
+ * To-top scroller
+ */
+
+.tm-totop-scroller {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: @global-z-index;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: @global-color;
+    text-align: center;
+    -webkit-transition: all linear 0.05s;
+    transition: all linear 0.05s;
+}
+
+.tm-totop-scroller:after {
+    content: "\f077";
+    font-family: "FontAwesome";
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ */
+
+.tm-totop-scroller:hover,
+.tm-totop-scroller:focus { /* 1 */
+    color: lighten(@global-color, 20%);
+    font-size: 16px;
+    outline: none; /* 2 */
+    text-decoration: none;
+}
+
+/* Active */
+.tm-totop-scroller:active {
+    color: darken(@global-color, 20%);
+    font-size: 11px;
+}
+
+
+/* Blog
+ ========================================================================== */
+
+/*
+ * Leading article
+ * Joomla only
+ */
+
+.tm-leading-article .uk-article:last-child {
+    padding-bottom: @article-margin-top;
+    border-bottom: 1px solid @base-hr-border;
+}
+
+
+/* Error
+ ========================================================================== */
+
+.tm-error-icon { font-size: 250px; }
+
+.tm-error-headline { font-size: 100px; }
+
+
+/* Offline
+ ========================================================================== */
+
+.tm-offline { width: 300px; }
+
+
+/* Socialbuttons
+ ========================================================================== */
+
+.tm-socialbuttons > div {
+    margin-right: 10px;
+    float: left;
+}
+/* Top Top Scroller
+ ========================================================================== */
+.tm-totop-scroller {
+    color: #444444;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    bottom: 20px;
+    transition: all 0.05s linear 0s;
+    width: 20px;
+    z-index: 1000;
+	top:inherit;
+}
+
+.uk-navbar {
+
+    border-top: 1px solid #EFEFEF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+.tm-content {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+
+/* WordPress only
+ ========================================================================== */
+
+.alignleft {
+    display: block;
+    margin-right: @utility-align-horizontal;  
+    float: left;  
+}
+
+.alignright {
+    display: block;
+    margin-left: @utility-align-horizontal;  
+    float: right;  
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

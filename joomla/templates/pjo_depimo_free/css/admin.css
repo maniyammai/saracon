@@ -1,0 +1,123 @@
+/*GENERAL*/
+.pane-sliders .panel
+{
+	border: none !important;
+}
+DIV.panel > H3
+{
+	height: 20px !important;
+	padding: 0 !important;
+	background: #FFF !important;
+	border: 1px solid #CCC;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: bold 12px / 20px sans-serif;
+}
+DIV.panel > H3 A
+{
+	color: #333 !important;
+}
+DIV.panel H3.pane-toggler-down
+{
+	background: #D5EEFF !important;
+	border: 1px solid #A4CDE9 !important;
+	width: 100%;
+	height: 100%;
+}
+DIV.panel H3.pane-toggler-down A
+{
+	color: #333 !important;
+}
+.sub-heading
+{
+	background: #D5EEFF !important;
+	border: 1px solid #A4CDE9 !important;
+	width: 400px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: bold 12px / 20px Arial, Helvetica, sans-serif;
+	display: block;
+	padding: 0 10px;
+}
+.pane-toggler SPAN
+{
+	padding: 10px 0 10px 20px !important;
+	background: transparent url(../images/arrow.png) no-repeat 5px 50% !important;
+}
+.pane-toggler-down SPAN
+{
+	padding: 10px 0 10px 20px !important;
+	background: transparent url(../images/arrow-down.png) no-repeat 5px 50% !important;
+}
+.pane-sliders .content
+{
+	margin: 4px auto;
+	width: 100%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.pane-down
+{
+	border: 1px solid #CCC !important;
+}
+.panel FIELDSET.panelform > UL > LI > LABEL
+{
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 20px 0 10px;
+	text-align: left;
+	max-width: 30% !important;
+	min-width: 30% !important;
+}
+.panel FIELDSET.panelform > UL > LI FIELDSET
+{
+	line-height: 28px;
+}
+FIELDSET.panelform INPUT
+{
+	height: 16px;
+	color: #555;
+	line-height: 16px;
+	padding: 4px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	width: 100px;
+}
+FIELDSET.panelform SELECT
+{
+	height: 26px;
+	color: #555;
+	line-height: 24px;
+	padding: 4px;
+	font-size: 11px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	width: 150px;
+}
+FIELDSET.panelform SELECT[multiple=multiple]
+{
+	height: auto !important;
+}
+FIELDSET.panelform TEXTAREA
+{
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	width: 250px;
+	padding: 4px;
+}
+.fltrt UL.adminformlist LI
+{
+	overflow: hidden;
+	border-bottom: 1px solid #EEE;
+	padding: 1px 10px;
+	margin: 0;
+}

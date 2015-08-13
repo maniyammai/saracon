@@ -1,0 +1,291 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+
+#main .uk-grid > * {
+    margin: 0 0 20px 0!important;
+}
+
+
+/*Rewrite the stupid bootstrap
+ ------------------------------------------------*/
+[class^="icon-"], [class*=" icon-"] {
+    height: auto;
+    line-height: 1.7!important;
+    width: auto;
+}
+.no-space {padding:0!important}
+
+@media screen and (max-width: 768px) {
+	.no-space {padding:0 20px!important;}
+	.uk-container {padding-right:20px!important; padding-left:20px!important}
+	.sprocket-mosaic .sprocket-mosaic-container {margin: 0;}
+}
+@media screen and (max-width: 1180px) {
+	.sprocket-mosaic .sprocket-mosaic-container {margin: 0;}
+}
+
+
+/* Headline with Border
+ ========================================================================== */
+span.border {
+	border-top:1px dotted #fff;
+	border-bottom:1px dotted #fff;
+	padding:10px 20px;
+}
+
+/* Headerbar Slider Styles
+ ========================================================================== */
+.headerbar {background: #3C5869;
+	text-align:center;
+	padding:0!important;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+display:inline-block;
+	margin-bottom:-7px;
+}
+@media screen and (max-width: 768px) {
+	.headerbar {
+		margin-top:0;
+		
+	}
+}
+
+
+/* Toolbar Outer 100%
+ ========================================================================== */
+.sw-top-outer .uk-icon-button {
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+	color:#fff;
+}
+.sw-top-outer .uk-icon-button:hover {
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+	color:#1B7B98;
+    background: #f5f5f5;
+}
+.sw-top-outer .uk-subnav > * {
+    margin-top: 0;
+    padding-left: 10px;
+}
+.sw-top-outer {
+	background: #FFF;
+box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.06);
+	width:100%;
+	color:#333;
+	font-size:12px;
+}
+
+.tm-toolbar {
+	margin:0!important;
+	padding:10px 0;
+}
+.tm-toolbar ul {
+	margin:0!important
+}
+
+/* Article Title
+ ========================================================================== */
+h3.uk-panel-title{
+  	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+	position:relative;
+}
+
+
+
+/* Article Title
+ ========================================================================== */
+h1.uk-article-title{
+  	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+	position:relative;
+}
+#top-a, #bottom-a {
+    color: #FFF;
+}
+#top-a h2, #bottom-a h2{color:#333}
+
+/* Logo */
+#logo-outer {
+	width:100%;
+	color:#999;
+	padding:40px 0;
+}
+
+.logo {
+	float:left;
+	margin-left:0;
+}
+.logo p {
+	margin:0!important;
+}
+
+/* Mobile Logo 
+ ========================================================================== */
+.tm-logo-small {
+    display: block;
+	letter-spacing: normal!important;
+	text-align:center;
+}
+.uk-navbar-toggle {
+    background: #fff;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+	padding:2px 6px!important;
+	height:auto!important;
+}
+/* Search Position 
+ ========================================================================== */
+.uk-navbar-flip .uk-search {margin:24px 20px 0 0;}
+
+/* Mainmenu 
+ ========================================================================== */
+.uk-navbar-nav > li > a {
+	text-transform:uppercase
+}
+/* Sticky Menu
+ ========================================================================== */
+@media screen and (max-width: 1025px) {
+  #menu-outer {  
+	  -webkit-transition: 0.15s ease-in-out;  
+	  -ms-transition: 0.15s ease-in-out;  
+	  transition: 0.15s ease-in-out;  
+  }  
+}
+
+.tm-navbar {
+	margin:0!important;
+	padding:0!important;
+}
+
+
+/* Joomla System Output 
+ ========================================================================== */
+.main-outer {
+    background: #fff!important;
+}
+.tm-footer {
+	margin:0!important;
+	padding:20px 0;
+	font-size:12px;
+	color:#fff;
+	position:relative;
+	width:100%;
+	 font-family:Arial;
+}
+.tm-footer .uk-panel {margin:0}
+
+.tm-footer .uk-subnav > * {
+    margin-top: 0;
+}
+.tm-footer a {
+	color:#999;
+}
+.tm-footer ul {
+	text-align: center;
+	margin:0 auto;
+}
+.tm-footer a:hover {
+	color:#777!important;
+}
+ 
+
+/* Panel Box 
+ ========================================================================== */
+
+.uk-panel-box-border{
+	background:none!important;
+	border:1px solid #ededed;
+}
+.uk-panel-box-primary a, .uk-link {
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.table-ico td {text-align:center}
+.table-ico span.ico {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: block;
+	font-family: 'modern_pictogramsnormal';
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto 0;
+	width: 40px;
+	text-align:center;
+	color:#fff;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	
+}
+.color2 {
+    text-align: center;
+    background-color: #E45055;
+    color: #FFF;
+    padding: 30px;
+}
+.color1 {
+    text-align: center;
+    background-color: #68C39F;
+    color: #FFF;
+    padding: 30px;
+}
+
+
+.wk-slideshow .caption {
+    bottom: 10%;
+    left: 18%;
+    right: 25%;
+    background: transparent ;
+}
+
+.wk-slideshow .caption h1 {
+	background-color: rgba(0, 0, 0, 0.1);
+	opacity: 0.8;
+    color: #fff;
+}
+
+.wk-slideshow .caption h1 + span {
+	background-color: #999;
+	opacity: 0.8;
+}
+ .wk-slideshow .caption a {
+    color: #FFF;
+}
+.wk-slideshow .caption h1, .wk-slideshow .caption h1 + span {
+    float: left;
+    margin-left: 5%;
+    padding: 12px 20px;
+}
+.wk-slideshow .caption h1 + span {
+    clear: both;
+    font-size: 30px;
+    line-height: 31px;
+}
+.wk-slideshow .caption a {
+    text-decoration: none;
+}

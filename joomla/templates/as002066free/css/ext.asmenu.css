@@ -1,0 +1,555 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu .as-menu,
+#as-menu .as-menu *
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation
+{
+	text-align: center;
+}
+
+#as-menu
+{
+	background: transparent;
+	border-radius: 0;
+	position: relative;
+}
+
+#as-menu ul.as-menu
+{
+	position: relative;
+	z-index: 150;
+	line-height: 1.0;
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 -3px;
+}
+
+#as-menu ul.as-menu a
+{
+	display: block;
+	position: relative;
+}
+
+#as-menu ul.as-menu li:hover
+{
+	visibility: inherit;
+}
+
+#as-menu ul.as-menu li
+{
+	float: left;
+	position: relative;
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	padding: 20px 20px 18px;
+	margin: 0 2px;
+	width: auto !important;
+	text-align: center;
+	list-style:none;
+}
+
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover,
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+	background: transparent !important;
+	color: #fff !important;
+}
+
+#as-menu ul.as-menu > li:hover,
+#as-menu ul.as-menu > li > span:hover,
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.asHover,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+	background: #333;
+}
+
+ul.as-menu > li > a:after,
+ul.as-menu > li > span:after,
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	background: none;
+	content: "";
+	height: 2px;
+	position: absolute;
+	transition: all 0.5s ease 0s;
+	top: -4px;
+	width: 100%;
+	padding: 0;
+	left: 0;
+}
+
+#as-menu ul.as-menu > li.firstItem,
+#as-menu ul.as-menu > li:first-child
+{
+}
+
+.#as-menu navigation #as-menu ul.as-menu > li > a,
+#as-menu ul.as-menu > li > span
+{
+	color: #5F5F5F;
+	display: block;
+	letter-spacing: 1px;
+}
+
+#as-menu ul.as-menu > li > a:hover > span,
+#as-menu ul.as-menu > li > span:hover > span
+{
+	background-position: center bottom !important;
+}
+
+#as-menu ul.as-menu li:hover > ul,
+#as-menu ul.as-menu li.asHover > ul
+{
+	top: 12px;
+}
+
+#as-menu ul.as-menu ul
+{
+	display: none;
+}
+
+#as-menu ul.as-menu ul
+{
+	position: absolute;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0px;
+	top: 63px;
+	z-index: 100;
+}
+
+#as-menu ul.as-menu li:hover li ul,
+#as-menu ul.as-menu li.asHover li ul
+{
+	top: -999em;
+}
+
+#as-menu ul.as-menu ul li
+{
+	width: 100%;
+	margin: 0 0 1px 0;
+	list-style: none;
+}
+
+#as-menu ul.as-menu ul li a, 
+#as-menu ul.as-menu ul li span
+{
+	color: #ffffff;	
+}
+
+#as-menu ul.as-menu ul li a:hover, 
+#as-menu ul.as-menu ul li span:hover
+{
+	color: #000000;	
+}
+
+#as-menu ul.as-menu ul > li.deeper > a:after
+{
+	display: inline-block;
+	background: url('../images/ddr.arrow.png') left top no-repeat;
+	width: 5px;
+	height: 7px;
+	position: relative;
+	left: 15px;
+	top: -2px;
+	content: "";
+}
+
+#as-menu ul.as-menu ul ul
+{
+	background-color: #FF7D7D;
+	left: 185px !important;
+	top: -5px !important;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#as-menu ul.as-menu ul li.firstItem
+{
+	border: none;
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+}
+
+#as-menu ul.as-menu ul li a
+{
+	line-height: 32px;
+	padding: 0;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#as-menu ul.as-menu ul li:hover
+{
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #ccca22;	
+}
+
+#as-menu ul.as-menu li li:hover ul,
+#as-menu ul.as-menu li li.asHover ul
+{
+	left: 10em;
+	top: 0;
+}
+
+#as-menu ul.as-menu li li:hover li ul,
+#as-menu ul.as-menu li li.asHover li ul
+{
+	top: -999em;
+}
+
+#as-menu ul.as-menu li li:hover ul,
+#as-menu ul.as-menu li li.asHover ul
+{
+	top: -1em;
+	left: 191px;
+}
+
+#as-menu ul.as-menu li li li:hover ul,
+#as-menu ul.as-menu li li li.asHover ul
+{
+	top: -1em;
+	left: 191px;
+}
+
+
+/**************************************************************************************/
+/*  Vertical version																  */
+
+
+#as-menu ul.as-menu.as-vertical 
+{
+     float: none;
+	 padding: 17px 0 0 0;
+ 	 margin: 0px;
+ 	 border-right: 1px solid #525252;
+}
+
+#as-menu ul.as-menu.as-vertical li
+{
+	float: none;	
+}
+
+#as-menu ul.as-menu.as-vertical > li,
+#as-menu ul.as-menu .as-vertical> li:hover
+{
+	padding: 15px 0px 25px;
+}
+
+#as-menu ul.as-menu.as-vertical > li.active > a,
+#as-menu ul.as-menu.as-vertical > li.current > a,
+#as-menu ul.as-menu.as-vertical > li.active > span,
+#as-menu ul.as-menu.as-vertical > li.current > span
+{
+	background-image: url(../images/arrow.active.png) !important;
+	background-position: center right !important;
+	background-repeat: no-repeat !important;
+}
+
+#as-menu ul.as-menu.as-vertical > li + li
+{
+	margin-left: 0px !important;	
+}
+
+#as-menu ul.as-menu.as-vertical li:hover ul,
+#as-menu ul.as-menu.as-vertical li.asHover ul
+{
+	left: 269px;
+	top: -3px;
+}
+
+@media (max-width: 1199px) 
+{
+
+	#as-menu ul.as-menu.as-vertical li:hover ul,
+	#as-menu ul.as-menu.as-vertical li.asHover ul
+	{
+		left: 221px;	
+	}
+
+}
+
+@media (max-width: 980px) 
+{	
+
+	#as-menu ul.as-menu.as-vertical li:hover ul,
+	#as-menu ul.as-menu.as-vertical li.asHover ul
+	{
+		left: 181px;
+	}
+
+}
+
+
+/**************************************************************************************/
+/*  AS Superfish menu																  */
+
+
+.navigation
+{
+	float: none;
+}
+
+.navigation ul.sf-menu
+{
+	display:  inline-block;  /*  align on center  */
+	margin-bottom: -3px;
+}
+
+.navigation ul.sf-menu > li
+{
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul.sf-menu > li.active > a, 
+.navigation ul.sf-menu > li.sfHover > a, 
+.navigation ul.sf-menu > li.current > a, 
+.navigation ul.sf-menu > li.active > span, 
+.navigation ul.sf-menu > li.sfHover > span, 
+.navigation ul.sf-menu > li.current > span
+{
+	background-color: #333;
+	color: #ffffff;
+}
+
+.navigation ul.sf-menu > li > a, 
+.navigation ul.sf-menu > li > span
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 60px;
+	color: #E4E4E4;
+	display: block;
+	padding: 0 25px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.navigation ul.sf-menu > li > a:hover, 
+.navigation ul.sf-menu > li > span:hover
+{
+	background: #333;
+	color: #ccca22;
+}
+
+.navigation ul.sf-menu > li > a:hover > span, 
+.navigation ul.sf-menu > li > span:hover > span
+{
+	background-position: center bottom !important;
+}
+
+.navigation ul.sf-menu li > ul
+{
+	top: 109%;
+}
+
+.navigation ul.sf-menu ul
+{
+	width: 200px;
+}
+
+.navigation ul.sf-menu li li ul
+{
+  	top: -30px;
+	left: 202px;
+}
+
+.navigation ul.sf-menu li li li ul
+{
+  	top: -30px;
+	left: 202px;
+}
+
+.navigation ul.sf-menu ul
+{
+	background: #333;
+	padding: 10px 0;
+}
+
+
+.sf-menu li li
+{
+	width: 100%;
+}
+
+.navigation ul.sf-menu ul li.open > .sub-menu
+{
+	display: block !important;
+}
+
+.navigation ul.sf-menu ul li a, 
+.navigation ul.sf-menu ul li span
+{
+	font-size: 13px;
+	line-height: 20px;
+	color: #fff;
+	display: block;
+	padding: 10px 37px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.navigation ul.sf-menu ul li a:hover, 
+.navigation ul.sf-menu ul li span:hover
+{
+	background-color: #333;
+	color: #ccca22;
+}
+
+.navigation ul.sf-menu ul li.active > a, 
+.navigation ul.sf-menu ul li.sfHover > a, 
+.navigation ul.sf-menu ul li.active > span, 
+.navigation ul.sf-menu ul li.sfHover > span
+{
+	background-color: #333;
+	color: #ffffff;
+}
+
+.navigation ul.sf-menu ul li.firstItem
+{
+	border: none;
+}
+
+.navigation ul.sf-menu.sf-vertical
+{
+	width: 254px;
+}
+
+.navigation ul.sf-menu.sf-vertical li
+{
+	width: 254px;
+	margin-bottom: 1px;
+}
+
+.navigation ul.sf-menu.sf-vertical li:hover > ul, 
+.navigation ul.sf-menu.sf-vertical li.sfHover > ul
+{
+  	top: -13px;
+}
+
+.navigation ul.sf-menu.sf-vertical ul
+{
+	left: 256px;
+}
+
+.navigation ul.sf-menu.sf-vertical ul li a, 
+.navigation ul.sf-menu.sf-vertical ul li span
+{
+	padding: 9px 12px;
+}
+
+.navigation ul.sf-menu.sf-navbar
+{
+	height: 90px;
+	padding-bottom: 90px;
+	margin-bottom: 2px;
+}
+
+.navigation ul.sf-menu.sf-navbar li:hover > ul, 
+.navigation ul.sf-menu.sf-navbar li.sfHover > ul
+{
+ 	top: 92px;
+	left: 0;
+}
+
+.navigation ul.sf-menu.sf-navbar li ul
+{
+	width: auto;
+	padding: 2px 0;
+}
+
+.navigation ul.sf-menu.sf-navbar li ul ul.sub-menu
+{
+	width: 254px;
+	top: 90px;
+}
+
+.scrolled .navigation ul.sf-menu > li > a, 
+.scrolled .navigation ul.sf-menu > li > span
+{
+	line-height: 46px;
+}
+
+.scrolled #logo
+{
+	margin-top: -2px;
+}
+
+.scrolled #logo h1 span
+{
+	font-size: 26px;
+	line-height: 46px;
+	margin-top: 2px;
+}
+
+.search-block
+{
+	text-align: right;
+}
+
+.search-block input
+{
+	max-width: 100%;
+}
+
+.masonry .item
+{
+	margin-left: 0 !important;
+}
+
+.sequence-canvas
+{
+	margin: 0;
+}
+

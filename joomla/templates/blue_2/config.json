@@ -1,0 +1,274 @@
+{
+	"dynamic_style": "1",
+	"compression": "0",
+	"twitter": "1",
+	"plusone": "1",
+	"facebook": "1",
+	"panel_default": {
+		"top-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"top-b": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"bottom-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"bottom-b": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"main-top": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"main-bottom": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"sidebar-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"sidebar-b": {
+			"panel": "uk-panel uk-panel-box"
+		}
+	},
+	"tracking_code": "",
+	"layouts": {
+		"default": {
+			"style": "style2",
+			"headerbar-height": "600px",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"sidebar-a": {
+					"layout": "parallel",
+					"responsive": ""
+				},
+				"sidebar-b": {
+					"layout": "parallel",
+					"responsive": ""
+				}
+			}
+		}
+	},
+	"menus": {
+		"109": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows",
+			"subtitle": ""
+		},
+		"110": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"111": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"subtitle": ""
+		},
+		"112": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"subtitle": ""
+		},
+		"113": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows",
+			"subtitle": ""
+		},
+		"117": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows",
+			"subtitle": ""
+		},
+		"118": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows-v",
+			"subtitle": ""
+		},
+		"119": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows",
+			"subtitle": ""
+		},
+		"127": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"128": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"135": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"136": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"137": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"138": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"139": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"140": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"141": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"142": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"143": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"144": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"145": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"146": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"147": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"148": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"149": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"150": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"151": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"152": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"153": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"154": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"155": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"156": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"157": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"158": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"159": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"160": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"161": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"162": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"164": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"165": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"166": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"174": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"183": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-arrows",
+			"subtitle": ""
+		}
+	}
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+<name>pjo_depimo_free</name>
+<version>3.1</version>
+<creationDate>2015</creationDate>
+<author>pickjoomla</author>
+<authorEmail>info@pickjoomla.com</authorEmail>
+<authorUrl>http://www.pickjoomla.com</authorUrl>
+<copyright>copyright (c) 2008-2015 - pickjoomla.com</copyright>
+<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>
+<![CDATA[
+<link href="../templates/pjo_depimo_free/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+<p>Free Joomla 3.x Template (with limited futures) designed to work with Bootstrap 2 and 3. Give to module menu position navigation to enable horizontal top menu. For more details, at <a href="http://www.pickjoomla.com" target="_blank">Pickjoomla.com</a> </p>
+<p></p>
+<img src="../templates/pjo_depimo_free/template_thumbnail.png" border="0" title="" alt=""/>
+]]>
+</description>
+<files>
+<filename>index.php</filename>
+<filename>component.php</filename>
+<filename>template_thumbnail.png</filename>
+<filename>templateDetails.xml</filename>
+<folder>images</folder>
+<folder>css</folder>
+<folder>html</folder>
+<folder>inc</folder>
+<folder>language</folder>
+<folder>img</folder>
+</files>
+<positions>
+<position>left</position>
+<position>right</position>
+<position>header_top1</position>
+<position>header_top2</position>
+<position>header1</position>
+<position>header2</position>
+<position>header3</position>
+<position>header4</position>
+<position>navigation</position>
+<position>bottom1</position>
+<position>bottom2</position>
+<position>bottom3</position>
+<position>bottom4</position>
+<position>footer</position>
+</positions>
+<languages folder="language">
+<language tag="en-GB">en-GB/en-GB.tpl_pjo_depimo_free.ini</language>
+</languages>
+<config>
+<fields name="params">
+<fieldset name="gener_par" label="General">
+<field name="logoFile" type="media" default="" label="Logo" description="Site Logo" />
+<field name="sitetitle"  type="text" default="" label="Title" description="Site Name" filter="string" />
+<field name="sitedescription"  type="text" default="" label="Slogan" description="Site Slogan" filter="string" />
+<field name="maxWidth" type="text" default="960px" disabled="true" label="Template Width (PRO)" description="Edit template width in px or percent or em (example, 1000px or 95% or 80em). (Available only in PRO Template)"></field>
+<field name="left_width" type="text" default="3" label="Left Sidebar (PRO)" disabled="true" description="Edit left sidebar width (PRO)" />
+<field name="right_width" type="text" default="3" label="Right Sidebar (PRO)" disabled="true" description="Edit right sidebar width (PRO)" />
+<field name="resp_options" type="radio" class="btn-group btn-group-yesno" default="disable" label="Enable Responsive (PRO)" description="Enable responsive for mobile devices (Available only in PRO Template)">
+<option value="enable">Responsive</option>
+<option value="disable">Non-Resposive</option>
+</field>
+</fieldset>
+<fieldset name="slideshow_parameters" label="Slideshow">
+<field name="menuid" type="menuitem"  multiple="true" size="10" default="0" label="Show/Hide Slideshow" description="Select menu items where to show the slideshow" >
+<option value="0">- DISABLE SLIDESHOW -</option>
+</field>
+<field name="slideshow_effect" type="list" default="basic_linear" label="Slideshow Effect (PRO)" description="Choose slideshow effect">
+<option value="basic_linear">basic_linear</option>
+<option value="basic" disabled="true">basic</option>
+<option value="blast" disabled="true">blast</option>
+<option value="blinds" disabled="true">blinds</option>
+<option value="blur" disabled="true">blur</option>
+<option value="book" disabled="true">book</option>
+<option value="collage" disabled="true">collage</option>
+<option value="cube" disabled="true">cube</option>
+<option value="fade" disabled="true">fade</option>
+<option value="fly" disabled="true">fly</option>
+<option value="kenburns" disabled="true">kenburns</option>
+<option value="page" disabled="true">page</option>
+<option value="photo" disabled="true">photo</option>
+<option value="seven" disabled="true">seven</option>
+<option value="slices" disabled="true">slices</option>
+<option value="squares" disabled="true">squares</option>
+<option value="stack" disabled="true">stack</option>
+<option value="stack_vertical" disabled="true">stack_vertical</option>
+</field>
+<field name="slideshow_height" type="text" disabled="true" default="400px" label="Height" description="Edit slideshow height (PRO)" />
+<field name="slideshow_info_text_size" type="text" default="14px" disabled="true" label="Font Size" description="Slideshow text size in px (example 13px or 11px etc) with px after. (PRO)" />
+<field name="autoPlay" type="list" default="true" label="Autoplay" description="Choose if slide images should play automaticly or not">
+<option value="true">Enable</option>
+<option value="false">Disable</option>
+</field>
+<field name="playPause" type="list" default="true" label="Play/Pause" description="Enable or disable play and pause button">
+<option value="true">Enable</option>
+<option value="false">Disable</option>
+</field>
+<field name="stopOnHover" type="list" default="false" label="Stop on Hover" description="Enable or disable play images when mouse on hover">
+<option value="true">Enable</option>
+<option value="false">Disable</option>
+</field>
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 1&lt;/div&gt;" />
+<field name="Image1" label="Image 1" type="media" description="Upload Image" />
+<field name="Link1" label="Link 1" type="text" description="Add here image URL" />
+<field name="Slidetext1" label="Slidetext 1" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 2&lt;/div&gt;" />
+<field name="Image2" label="Image 2" type="media"  description="Upload Image" />
+<field name="Link2" label="Link 2" type="text" description="Add here image URL" />
+<field name="Slidetext2" label="Slidetext 2" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 3&lt;/div&gt;" />
+<field name="Image3" label="Image 3" type="media" description="Upload Image" />
+<field name="Link3" label="Link 3" type="text" description="Add here image URL" />
+<field name="Slidetext3" label="Slidetext 3" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 4&lt;/div&gt;" />
+<field name="Image4" label="Image 4" type="media" description="Upload Image" />
+<field name="Link4" label="Link 4" type="text" description="Add here image URL" />
+<field name="Slidetext4" label="Slidetext 4" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 5 (PRO)&lt;/div&gt;" />
+<field name="dImage5" disabled="true" label="Image 5" type="media" description="Upload Image" />
+<field name="dLink5" disabled="true" label="Link 5" type="text" description="Add here image URL" />
+<field name="dSlidetext5" disabled="true" label="Slidetext 5" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 6 (PRO)&lt;/div&gt;" />
+<field name="dImage6" disabled="true" label="Image 6" type="media" description="Upload Image" />
+<field name="dLink6" disabled="true" label="Link 6" type="text" description="Add here image URL" />
+<field name="dSlidetext6" disabled="true" label="Slidetext 6" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 7 (PRO)&lt;/div&gt;" />
+<field name="dImage7" disabled="true" label="Image 7" type="media" description="Upload Image" />
+<field name="dLink7" disabled="true" label="Link 7" type="text" description="Add here image URL" />
+<field name="dSlidetext7" disabled="true" label="Slidetext 7" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 8 (PRO)&lt;/div&gt;" />
+<field name="dImage8" disabled="true" label="Image 8" type="media" description="Upload Image" />
+<field name="dLink8" disabled="true" label="Link 8" type="text" description="Add here image URL" />
+<field name="dSlidetext8" disabled="true" label="Slidetext 8" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 9 (PRO)&lt;/div&gt;" />
+<field name="dImage9" disabled="true" label="Image 9" type="media" description="Upload Image" />
+<field name="dLink9" disabled="true" label="Link 9" type="text" description="Add here image URL" />
+<field name="dSlidetext9" disabled="true" label="Slidetext 9" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 10 (PRO)&lt;/div&gt;" />
+<field name="dImage10" disabled="true" label="Image 10" type="media" description="Upload Image" />
+<field name="dLink10" disabled="true" label="Link 10" type="text" description="Add here image URL" />
+<field name="dSlidetext10" disabled="true" label="Slidetext 10" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 11 (PRO)&lt;/div&gt;" />
+<field name="dImage11" disabled="true" label="Image 11" type="media" description="Upload Image" />
+<field name="dLink11" disabled="true" label="Link 11" type="text" description="Add here image URL" />
+<field name="dSlidetext11" disabled="true" label="Slidetext 11" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 12 (PRO)&lt;/div&gt;" />
+<field name="dImage12" disabled="true" label="Image 12" type="media" description="Upload Image" />
+<field name="dLink12" disabled="true" label="Link 12" type="text" description="Add here image URL" />
+<field name="dSlidetext12" disabled="true" label="Slidetext 12" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 13 (PRO)&lt;/div&gt;" />
+<field name="dImage13" disabled="true" label="Image 13" type="media" description="Upload Image" />
+<field name="Link13" disabled="true" label="Link 13" type="text" description="Add here image URL" />
+<field name="Slidetext13" disabled="true" label="Slidetext 13" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 14 (PRO)&lt;/div&gt;" />
+<field name="dImage14" disabled="true" label="Image 14" type="media" description="Upload Image" />
+<field name="dLink14" disabled="true" label="Link 14" type="text" description="Add here image URL" />
+<field name="dSlidetext14" disabled="true" label="Slidetext 14" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 15 (PRO)&lt;/div&gt;" />
+<field name="dImage15" disabled="true" label="Image 15" type="media" description="Upload Image" />
+<field name="dLink15" disabled="true" label="Link 15" type="text" description="Add here image URL" />
+<field name="dSlidetext15" disabled="true" label="Slidetext 15" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 16 (PRO)&lt;/div&gt;" />
+<field name="dImage16" disabled="true" label="Image 16" type="media" description="Upload Image" />
+<field name="dLink16" disabled="true" label="Link 16" type="text" description="Add here image URL" />
+<field name="dSlidetext16" disabled="true" label="Slidetext 16" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 17 (PRO)&lt;/div&gt;" />
+<field name="pImage17" disabled="true" label="Image 17" type="media" description="Upload Image" />
+<field name="dLink17" disabled="true" label="Link 17" type="text" description="Add here image URL" />
+<field name="dSlidetext17" disabled="true" label="Slidetext 17" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 18 (PRO)&lt;/div&gt;" />
+<field name="dImage18" disabled="true" label="Image 18" type="media" description="Upload Image" />
+<field name="dLink18" disabled="true" label="Link 18" type="text" description="Add here image URL" />
+<field name="dSlidetext18" disabled="true" label="Slidetext 18" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 19 (PRO)&lt;/div&gt;" />
+<field name="dImage19" disabled="true" label="Image 19" type="media" description="Upload Image" />
+<field name="dLink19" disabled="true" label="Link 19" type="text" description="Add here image URL" />
+<field name="dSlidetext19" disabled="true" label="Slidetext 19" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 20 (PRO)&lt;/div&gt;" />
+<field name="pImage20" disabled="true" label="Image 20" type="media" description="Upload Image" />
+<field name="dLink20" disabled="true" label="Link 20" type="text" description="Add here image URL" />
+<field name="dSlidetext20" disabled="true" label="Slidetext 20" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="Add image caption here. HTML allowed." />
+</fieldset>
+<fieldset name="layout_otpions" label="Template Layout">
+<field name="column_layout" type="list" default="left-content-right" label="Column Layout" description="Side Column Layout">
+<option value="left-content-right">Col A + Component + Col B</option>
+<option value="left-right-content" disabled="true">Col A + Col B + Component(PRO)</option>
+<option value="content-left-right" disabled="true">Component + Col A + Col B(PRO)</option>
+</field>
+</fieldset>
+<fieldset name="template_style" label="Template Style">
+<field name="template_color" type="color" default="" disabled="true" label="Custom Color (PRO)" description="Change template color to any color you like" />
+<field name="font_size" type="text" default="13px" label="Fontsize (PRO)" disabled="true" description="Edit template font size" />
+</fieldset>
+</fields>
+</config>
+</extension>
+
